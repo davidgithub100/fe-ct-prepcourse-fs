@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #6ea4b9;
+    color: #000000;
+    margin: 5px;
+  }
+
+  h1{
+    font-family:fantasy;
+    color: #001747;
+  }
+
+  h2{
+    font-family:'Courier New', Courier, monospace ;
+    color: #09026e;
+    text-align:center;
+  }
+
+  #parrafo1{
+    color: #000000;
+
+  }
+
+  #parrafo2{
+    color: #000000;
+
+  }
+
+  .lista{
+    margin: -20px;
+    margin-bottom: 20px;
+  }
