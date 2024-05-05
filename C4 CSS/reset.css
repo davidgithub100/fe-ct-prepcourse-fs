@@ -1,0 +1,73 @@
+/* Reset de estilos CSS */
+
+/* Ajustes generales */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    border-style: none;
+}
+
+/* Eliminar margen adicional de elementos de lista */
+ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    background-color: transparent;
+}
+
+/* Eliminar espacios entre elementos de lista */
+ol ol, ul ul, ol ul, ul ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Restablecer márgenes y rellenos de elementos de lista */
+li {
+    padding-left: 0;
+}
+
+/* Restablecer bordes de campos de formulario */
+input, button, textarea, select {
+    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Eliminar bordes en navegadores más recientes */
+button, input {
+    overflow: visible;
+}
+
+/* Restablecer valores de botones */
+button, select {
+    text-transform: none;
+}
+
+/* Restablecer altura del elemento de video en línea */
+audio, video {
+    display: inline-block;
+}
+
+
